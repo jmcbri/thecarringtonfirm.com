@@ -1,0 +1,19 @@
+Steps (NOT THE RIGHT WAY, RESEARCH AND FIGURE OUT HOW THIS SHOULD BE DONE)
+1) Install git
+2) Create a directory on the server for the html files/site. Probably something like: /usr/share/nginx/html/seticorp.com in the case of digitalocean.com, or /var/www if a regular server, or something else if a rails app
+3) Adjust the permission and ownership.  Something like: chown R www-data:jim directory, sudo chmod -R 770 seticorp.com/  (Later we'll change some of the file permission that we don't want the webserver to see back.)
+4) 'git init' in the directory
+5) On the local/development machine, without creating the directory, above where you want the directory, run clone ssh://jim@apoxeia.com/usr/share/nginx/html/seticorp.com
+4) On the remote origin, run git status (should be master and clean)
+5) git checkout -b deploy Otherwise you'll see: 
+	error: src refspec deploy does not match any.
+	error: failed to push some refs to 'ssh://jim@apoxeia.com/usr/share/nginx/html/jamesmcbride.us'
+
+6) Git status
+7) Checkout branch deploy (git checkout deploy)
+8) Change/add/remove files in this directory
+9) git add .
+10) git commit -am "Write message about changes"
+11) git push origin deploy
+12) In the website directory on the server, (for example, "/var/www/thecarringtonfirm.com") checkout the main branch if it's not aleady ('git status', then if needed 'git checkout master')
+13) type 'git merge deploy'
