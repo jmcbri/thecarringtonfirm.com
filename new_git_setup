@@ -127,7 +127,7 @@ cd /var/repo/beta.git
 git push live master
 Congratulations! Your VPS is now set to automatically deploy with Git!
 
-
+Old Git setup::
 
 
 Steps (NOT THE RIGHT WAY, RESEARCH AND FIGURE OUT HOW THIS SHOULD BE DONE)
