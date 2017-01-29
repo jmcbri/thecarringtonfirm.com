@@ -519,15 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "new_git_setup",
-			"settings":
-			{
-				"buffer_size": 8684,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -578,6 +569,8 @@
 	],
 	"file_history":
 	[
+		"/home/jim/websites/thecarringtonfirm.com/new_git_setup",
+		"/home/jim/websites/thecarringtonfirm.com/robots.txt",
 		"/home/jim/development/apps/apoxeia/app/controllers/vouchers_controller.rb",
 		"/home/jim/development/apps/apoxeia/config/unicorn_init.sh",
 		"/home/jim/development/apps/apoxeia/config/initializers/simple_form_bootstrap3.rb",
@@ -703,9 +696,7 @@
 		"/home/jim/rails/apps/apoxeia/spec/controllers/counsels_controller_spec.rb",
 		"/home/jim/rails/apps/apoxeia/spec/controllers/clients_controller_spec.rb",
 		"/home/jim/rails/apps/apoxeia/spec/controllers/change_requests_controller_spec.rb",
-		"/home/jim/rails/apps/apoxeia/spec/controllers/case_types_controller_spec.rb",
-		"/home/jim/rails/apps/apoxeia/spec/routing/states_routing_spec.rb",
-		"/home/jim/rails/apps/apoxeia/spec/routing/parameters_routing_spec.rb"
+		"/home/jim/rails/apps/apoxeia/spec/controllers/case_types_controller_spec.rb"
 	],
 	"find":
 	{
@@ -1004,37 +995,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "new_git_setup",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8684,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5711,
-								5711
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 2256.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
