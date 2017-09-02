@@ -519,41 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "css/main.css",
-			"settings":
-			{
-				"buffer_size": 20290,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 1055,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_includes/head.html",
-			"settings":
-			{
-				"buffer_size": 1117,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_includes/nav-links.html",
-			"settings":
-			{
-				"buffer_size": 749,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "Packages/Ruby/Ruby.sublime-build",
 	"build_system_choices":
@@ -596,32 +561,28 @@
 	},
 	"expanded_folders":
 	[
-		"/home/jim/development/websites/thecarringtonfirm.com",
-		"/home/jim/development/websites/thecarringtonfirm.com/_includes",
-		"/home/jim/development/websites/thecarringtonfirm.com/_layouts",
-		"/home/jim/development/websites/thecarringtonfirm.com/acs_support",
-		"/home/jim/development/websites/thecarringtonfirm.com/bankruptcy",
-		"/home/jim/development/websites/thecarringtonfirm.com/contact",
-		"/home/jim/development/websites/thecarringtonfirm.com/criminal",
-		"/home/jim/development/websites/thecarringtonfirm.com/css",
-		"/home/jim/development/websites/thecarringtonfirm.com/estateplanning",
-		"/home/jim/development/websites/thecarringtonfirm.com/familylaw"
+		"/home/jim/development/websites/thecarringtonfirm.com"
 	],
 	"file_history":
 	[
-		"/home/jim/development/websites/thecarringtonfirm.com/_layouts/default.html",
-		"/home/jim/development/websites/thecarringtonfirm.com/_includes/footer.html",
-		"/home/jim/development/websites/thecarringtonfirm.com/_includes/header.html",
-		"/home/jim/development/websites/thecarringtonfirm.com/_site/acs_support/index.html",
-		"/home/jim/development/websites/thecarringtonfirm.com/css/reset.css",
+		"/home/jim/development/websites/thecarringtonfirm.com/acs_support/index.html",
 		"/home/jim/development/websites/thecarringtonfirm.com/index.html",
+		"/home/jim/development/websites/thecarringtonfirm.com/css/main.css",
+		"/home/jim/development/websites/thecarringtonfirm.com/matrimonial/index.html",
+		"/home/jim/development/websites/thecarringtonfirm.com/_includes/header.html",
+		"/home/jim/development/websites/thecarringtonfirm.com/_layouts/default.html",
+		"/home/jim/development/websites/thecarringtonfirm.com/_includes/head.html",
+		"/home/jim/development/websites/thecarringtonfirm.com/_includes/nav-links.html",
+		"/home/jim/development/websites/thecarringtonfirm.com/_site/acs_support/index.html",
+		"/home/jim/development/websites/thecarringtonfirm.com/config.yml",
+		"/home/jim/development/websites/thecarringtonfirm.com/_includes/footer.html",
+		"/home/jim/development/websites/thecarringtonfirm.com/css/reset.css",
 		"/home/jim/development/websites/thecarringtonfirm.com/_layouts/post.html",
 		"/home/jim/development/websites/thecarringtonfirm.com/familylaw/index.html",
 		"/home/jim/development/websites/thecarringtonfirm.com/estateplanning/index.html",
 		"/home/jim/development/websites/thecarringtonfirm.com/criminal/index.html",
 		"/home/jim/development/websites/thecarringtonfirm.com/contact/index.html",
 		"/home/jim/development/websites/thecarringtonfirm.com/bankruptcy/index.html",
-		"/home/jim/development/websites/thecarringtonfirm.com/acs_support/index.html",
 		"/home/jim/development/repos/jmcbri.github.io/gallery/index.html",
 		"/home/jim/development/websites/thecarringtonfirm.com/familylaw.html",
 		"/home/jim/development/websites/thecarringtonfirm.com/main.css",
@@ -731,12 +692,7 @@
 		"/home/jim/rails/apps/apoxeia/app/views/clients/_form.html.erb",
 		"/home/jim/rails/apps/apoxeia/app/views/change_requests/index.html.erbold",
 		"/home/jim/rails/apps/apoxeia/app/controllers/counsels_controller.rb",
-		"/home/jim/rails/apps/apoxeia/app/views/change_requests/index.html.erbold2",
-		"/home/jim/rails/apps/apoxeia/app/views/parts/_parts.html.erbold",
-		"/home/jim/rails/apps/apoxeia/.gitignore",
-		"/home/jim/rails/apps/apoxeia/CaseActivity.csv",
-		"/home/jim/rails/apps/apoxeia/Capfile",
-		"/home/jim/rails/apps/apoxeia/Notes_for_StackOverflow_bundler_gem_git_remote_repository_question"
+		"/home/jim/rails/apps/apoxeia/app/views/change_requests/index.html.erbold2"
 	],
 	"find":
 	{
@@ -793,6 +749,19 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"home",
+			"home.content",
+			"content",
+			"home",
+			"main",
+			"main.css",
+			"image",
+			"#ed6e2f",
+			"Justice",
+			"post-as",
+			"nav-lin",
+			"background",
+			"aside",
 			"logo.png",
 			"aside",
 			"chitika",
@@ -907,20 +876,7 @@
 			"opp",
 			"case_id",
 			"activty",
-			"rescue",
-			"activity_date",
-			"\\n",
-			"create model",
-			"save",
-			"convert_case_activities",
-			"opp",
-			"Error",
-			"opp",
-			"OtherCounsel",
-			"created",
-			"other",
-			"000-09",
-			"convert_case_activities"
+			"rescue"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1004,127 +960,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "css/main.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 20290,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								9821,
-								9821
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 9688.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1055,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "_includes/head.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1117,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1117,
-								1117
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "_includes/nav-links.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 749,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								212,
-								212
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1134,7 +971,7 @@
 	},
 	"input":
 	{
-		"height": 120.0
+		"height": 39.0
 	},
 	"layout":
 	{
