@@ -1,0 +1,24 @@
+<head>
+	{% if page.title %}
+		<title>{{ page.title }} | The Carrington Firm, PLLC </title>
+		<meta property="og:title" content="{{ page.title }} | The Carrington Firm, PLLC " />
+	{% else %}
+		<title>The Carrington Firm, PLLC</title>
+		<meta property="og:title" content="The Carrington Firm, PLLC" />
+	{% endif %}
+	{% if page.description %}
+		<meta name="description" content="{{ page.description }}">
+  	<meta property="og:description" content="{{ page.description }}" />
+	{% else %}
+		<meta name="description" content="Legal services for New Yorkers">
+  		<meta property="og:description" content="Legal services for New Yorkers" />
+	{% endif %}
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <link href="/favicon.png" rel="icon">
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="apple-touch-icon" href="/favicon.png">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans%7CRaleway:100,400" rel="stylesheet">
+  <link rel="stylesheet" href="/fonts/font-awesome-4.7.0/css/font-awesome.css">
+  <link rel="stylesheet" href="/css/main.css">
+</head>
