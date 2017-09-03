@@ -17,7 +17,7 @@ tmp/
 *.log
 #
 ##ignore the sublime files
-*.sublime-*
+*.sublime*
 #
 .DS_Store
 .project
